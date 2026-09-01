@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MareaLive</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    //añado la estructuracion de carpetas para que todo quede ordenado y reorganizo los enlaces
+    //el siguiente paso es pulir el css y html para poder terminar de añadir el resto de productos a la tienda
+
+    <!-- NAVBAR -->
+    <header>
+        <!-- TOP BAR -->
+        <div class="topbar">
+            <a href="#" class="btn-top">Suscripción</a>
+
+            <!-- LOGO CENTRADO -->
+            <img src="img/logo.png" class="logo">
+
+            <a href="login.html" class="btn-top">Iniciar sesión</a>
+        </div>
+
+        <!-- MENÚ -->
+        <nav class="navbar">
+            <ul class="menu-izq">
+                <li><a href="playas.html">Playas</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+            </ul>
+
+            <ul class="menu-der">
+                <li><a href="#">Mis playas</a></li>
+                <li><a href="conocenos.html">Conócenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider">
+        <div class="slides">
+
+            <div class="slide active">
+                <img src="img/fondos/playas.png">
+                <div class="overlay">
+                    <h2>Explora playas</h2>
+                    <p>Consulta el estado del mar en tiempo real</p>
+                    <a href="playas.html" class="btn">Ir a playas</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/fondos/tienda.png">
+                <div class="overlay">
+                    <h2>Tienda</h2>
+                    <p>Compra productos para tus aventuras</p>
+                    <a href="tienda.html" class="btn">Ir a tienda</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/fondos/perfil.png">
+                <div class="overlay">
+                    <h2>Tu perfil</h2>
+                    <p>Gestiona tus playas favoritas</p>
+                    <a href="login.html" class="btn">Acceder</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DESTACADA -->
+    <section class="destacadas">
+        <h2>Playas destacadas</h2>
+
+        <div class="cards">
+
+            <!-- PLAYA 1 -->
+            <a href="playas/detalle-playa-la-mata.html" class="card">
+                <img src="img/playas/playa-mata.png">
+                <h3>La Mata (Torrevieja)</h3>
+            </a>
+
+            <!-- PLAYA 2 -->
+            <a href="#" class="card">
+                <img src="img/playas/playa-benidorm.png">
+                <h3>Benidorm</h3>
+            </a>
+
+            <!-- PLAYA 3 -->
+            <a href="#" class="card">
+                <img src="img/playa3.jpg">
+                <h3>Jávea</h3>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 MareaLive</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
