@@ -649,11 +649,11 @@ footer {
 }
 
 .hero-tienda {
-    background: url('../img/tienda.png') center/cover no-repeat;
+    background: url('../img/fondos/tienda.png') center/cover no-repeat;
 }
 
 .hero-playas {
-    background: url('../img/playas.png') center/cover no-repeat;
+    background: url('../img/fondos/playas.png') center/cover no-repeat;
 }
 
 .hero-overlay h1 {
